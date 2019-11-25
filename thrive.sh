@@ -52,7 +52,7 @@ echo -e "${Info} 安装完成"
 }
 
 Find(){
-sudo cat shadowbox/access.txt
+sudo cat /opt/outline/access.txt
 }
 
 Restart(){
