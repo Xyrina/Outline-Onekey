@@ -56,7 +56,7 @@ sudo cat /opt/outline/access.txt
 }
 
 Restart(){
-sudo service docker start
+sudo systemctl restart docker.service
 }
 
 echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
