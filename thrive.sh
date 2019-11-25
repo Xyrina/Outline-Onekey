@@ -55,8 +55,7 @@ Find(){
 sudo cat /opt/outline/access.txt
 
 echo "apiURL范例"
-echo -e "${Info} 
-{ 
+echo " { 
   "apiUrl": "https://1.2.3.4:1234/XXXXXXXXXXXX", 
   "certSha256": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
 }"
