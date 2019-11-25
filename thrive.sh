@@ -19,7 +19,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 clear
 printf "
 #######################################################################
-#    			 Outline for CentOS 7.0+        					  #
+#    		 Outline for CentOS 7.0+			      #
 #              Installs a Outline for CentOS                          #
 #######################################################################
 " 
@@ -73,12 +73,11 @@ by Isaac 20191125
 echo
 	read -e -p " 请输入数字 [0-2]:" num
 	case "$num" in
-	
 		0)
-		Update_Shell
+		Install
 		;;
 		1)
-		Install
+		Find
 		;;
 		2)
 		Restart
