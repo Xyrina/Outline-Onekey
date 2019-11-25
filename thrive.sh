@@ -68,7 +68,7 @@ by Isaac 20191125
  ${Green_font_prefix} 1.${Font_color_suffix} API信息
  ————————————
  ${Green_font_prefix} 2.${Font_color_suffix} 重启Outline
-————————————" && echo
+————————————"&& echo
 
 echo
 	read -e -p " 请输入数字 [0-2]:" num
