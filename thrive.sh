@@ -63,27 +63,27 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
 by Isaac 20191125
   
 ————————————
- ${Green_font_prefix} 0.${Font_color_suffix} 安装 Outline一键脚本
+ ${Green_font_prefix} 1.${Font_color_suffix} 安装 Outline一键脚本
 ————————————
- ${Green_font_prefix} 1.${Font_color_suffix} API信息
+ ${Green_font_prefix} 2.${Font_color_suffix} API信息
  ————————————
- ${Green_font_prefix} 2.${Font_color_suffix} 重启Outline
+ ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
 ————————————"&& echo
 
 echo
-	read -e -p " 请输入数字 [0-2]:" num
+	read -e -p " 请输入数字 [1-3]:" num
 	case "$num" in
-		0)
+		1)
 		Install
 		;;
-		1)
+		2)
 		Find
 		;;
-		2)
+		3)
 		Restart
 		;;
 		*)
-		echo "请输入正确数字 [0-2]"
+		echo "请输入正确数字 [1-3]"
 		;;
 		
 	esac
