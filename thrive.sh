@@ -73,6 +73,7 @@ by Isaac 20191125
 echo
 	read -e -p " 请输入数字 [0-2]:" num
 	case "$num" in
+	
 		0)
 		Install
 		;;
@@ -85,4 +86,5 @@ echo
 		*)
 		echo "请输入正确数字 [0-2]"
 		;;
+		
 	esac
