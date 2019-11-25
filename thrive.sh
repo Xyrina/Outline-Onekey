@@ -56,7 +56,7 @@ sudo cat shadowbox/access.txt
 }
 
 Restart(){
-
+sudo service docker start
 }
 
 echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
@@ -66,6 +66,8 @@ by Isaac 20191125
  ${Green_font_prefix} 0.${Font_color_suffix} 安装 Outline一键脚本
 ————————————
  ${Green_font_prefix} 1.${Font_color_suffix} API信息
+ ————————————
+ ${Green_font_prefix} 2.${Font_color_suffix} 重启Outline
 ————————————" && echo
 
 echo
@@ -76,6 +78,9 @@ echo
 		;;
 		1)
 		Install
+		;;
+		2)
+		Restart
 		;;
 		*)
 		echo "请输入正确数字 [0-10]"
