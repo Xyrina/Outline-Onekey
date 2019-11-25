@@ -57,8 +57,8 @@ sudo cat /opt/outline/access.txt
 echo "apiURL范例"
 echo " { 
   "apiUrl": "https://1.2.3.4:1234/XXXXXXXXXXXX", 
-  "certSha256": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }
-}"
+  "certSha256": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }"
+}
 
 Restart(){
 sudo service docker start
