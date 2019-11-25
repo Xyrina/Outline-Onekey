@@ -19,8 +19,8 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 clear
 printf "
 #######################################################################
-#    		 Outline for CentOS 7.0+			      #
-#              Installs a Outline for CentOS                          #
+#			Outline for CentOS 7.0+			      #
+#		     Installs a Outline for CentOS                    #
 #######################################################################
 " 
 
