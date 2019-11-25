@@ -54,6 +54,7 @@ echo -e "${Info} 安装完成"
 Find(){
 sudo cat /opt/outline/access.txt
 }
+
 Restart(){
 sudo service docker start
 }
