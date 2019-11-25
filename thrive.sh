@@ -53,6 +53,16 @@ echo -e "${Info} 安装完成"
 
 Find(){
 sudo cat /opt/outline/access.txt
+echo -e "${Info} 
+
+apiURL范例"
+
+echo -e "${Info} 
+{ 
+  "apiUrl": "https://1.2.3.4:1234/XXXXXXXXXXXX", 
+  "certSha256": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
+}"
+
 }
 
 Restart(){
