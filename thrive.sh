@@ -73,8 +73,7 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
  ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
 ————————————"
 
-printf " 请输入数字 [1-3]:"
-read num
+read -p -r " 请输入数字 [1-3]:" num
 case $num in
 	1)
 	Install
