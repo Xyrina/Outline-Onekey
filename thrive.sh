@@ -73,7 +73,6 @@ by Isaac 20191125
  ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
 ————————————"&& echo
 
-echo
 	read -e -p "请输入数字 [1-3]:" num
 	case "$num" in
 		1)
