@@ -74,7 +74,8 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
 ————————————"&& echo
 
 read -e -p " 请输入数字 [0-10]:" num
-case "$num" in
+
+case $num in
 	1)
 	Install
 	;;
