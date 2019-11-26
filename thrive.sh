@@ -71,8 +71,7 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
  ${Green_font_prefix} 2.${Font_color_suffix} API信息
  ————————————
  ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
-———————————— "
-echo
+———————————— "&&echo
 
 read -p "输入 1 到 3 之间的数字:" input
 case $input in
