@@ -76,16 +76,16 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
 echo
 read -e -p " 请输入数字 [0-10]:" num
 case "$num" in
-	1)
+	1
 	Install
 	;;
-	2)
+	2
 	Find
 	;;
-	3)
+	3
 	Restart
 	;;
-	*)
+	*
 	echo "请输入正确数字 [1-3]"
 	;;	
 esac
