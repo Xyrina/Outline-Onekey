@@ -73,8 +73,8 @@ echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_colo
  ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
 ————————————"
 
-printif " 请输入数字 [1-3]:"
-read -r num
+echo "输入 1 到 4 之间的数字:"
+read num
 case $num in
 	1)
 	Install
