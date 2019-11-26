@@ -63,7 +63,7 @@ echo -e "${Tip} 重启完毕"
 }
 
 echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-----by Isaac 20191125----
+-----by Isaac 20191125-----
   
 ————————————
  ${Green_font_prefix} 1.${Font_color_suffix} 安装 Outline一键脚本
