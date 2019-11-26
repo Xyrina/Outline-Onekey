@@ -63,7 +63,7 @@ echo -e "${Tip} 重启完毕"
 }
 
 echo && echo -e "  Outline一键脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-by Isaac 20191125
+----by Isaac 20191125----
   
 ————————————
  ${Green_font_prefix} 1.${Font_color_suffix} 安装 Outline一键脚本
@@ -73,20 +73,18 @@ by Isaac 20191125
  ${Green_font_prefix} 3.${Font_color_suffix} 重启Outline
 ————————————"&& echo
 
-echo
-	read -e -p -r "请输入数字 [1-3]:" num
-	case "$num" in
-		1)
-		Install
-		;;
-		2)
-		Find
-		;;
-		3)
-		Restart
-		;;
-		*)
-		echo "请输入正确数字 [1-3]"
-		;;
-		
-	esac
+read -e -p " 请输入数字 [0-10]:" num
+case "$num" in
+	1)
+	Install
+	;;
+	2)
+	Find
+	;;
+	3)
+	Restart
+	;;
+	*)
+	echo "请输入正确数字 [1-3]"
+	;;	
+esac
