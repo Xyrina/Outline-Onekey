@@ -76,7 +76,6 @@ by Isaac 20191125
 echo
 	read -e -p " 请输入数字 [1-3]:" num
 	case "$num" in
-		;;
 		1)
 		Install
 		;;
